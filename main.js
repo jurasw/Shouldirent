@@ -1,13 +1,12 @@
 // Your web app's Firebase configuration
-var firebaseConfig = {
-    apiKey: "AIzaSyChn98cxWjCqzut5dy6ldyzfZmfXVyFQa8",
-    authDomain: "shouldirent.firebaseapp.com",
-    databaseURL: "https://shouldirent.firebaseio.com",
-    projectId: "shouldirent",
-    storageBucket: "shouldirent.appspot.com",
-    messagingSenderId: "67555504117",
-    appId: "1:67555504117:web:a1433731817912f0423abc",
-    measurementId: "G-3B98BXELL7"
+  var firebaseConfig = {
+    apiKey: "AIzaSyCTwbSvspE83Ct90EVxDgBjPVoSdIPNcFs",
+    authDomain: "finish-task-50546.firebaseapp.com",
+    databaseURL: "https://finish-task-50546.firebaseio.com",
+    projectId: "finish-task-50546",
+    storageBucket: "finish-task-50546.appspot.com",
+    messagingSenderId: "648948657968",
+    appId: "1:648948657968:web:ef376b03940e5494bc22f5"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);

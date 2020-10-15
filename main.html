@@ -9,7 +9,33 @@
     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-database.js"></script>
     <script src="main.js"> </script>
-  </head>
+  
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyChn98cxWjCqzut5dy6ldyzfZmfXVyFQa8",
+        authDomain: "shouldirent.firebaseapp.com",
+        databaseURL: "https://shouldirent.firebaseio.com",
+        projectId: "shouldirent",
+        storageBucket: "shouldirent.appspot.com",
+        messagingSenderId: "67555504117",
+        appId: "1:67555504117:web:a1433731817912f0423abc",
+        measurementId: "G-3B98BXELL7"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+
+
+</head>
 
   <body onload="create_unfinished_task(), create_finished_task()">
     <div id="content_container">
