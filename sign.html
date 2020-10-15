@@ -157,10 +157,22 @@
 	const container = document.getElementById('container');
 
 	signUpButton.addEventListener('click', () => {
+		if(container.classList.contains("right-panel-active"))
+		{
+			signUp();
+		}
+		else{
 		container.classList.add("right-panel-active");
+		}
 	});
 	signInButton.addEventListener('click', () => {
+		if(!container.classList.contains("right-panel-active"))
+		{
+			signIn();
+		}
+		else{
 		container.classList.remove("right-panel-active");
+	}
 	});
 </script>
 
